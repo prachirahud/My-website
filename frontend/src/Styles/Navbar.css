@@ -1,0 +1,45 @@
+.navbar{
+    background-color: rgb(120, 3, 137);
+    padding: 10px 0px;
+    height: 50px;
+  }
+  .navbar img{
+  height: 25px;
+  
+  margin-left: 20px;
+  }
+  .list{
+  display: flex;
+  gap: 30px;
+   list-style: none;
+   justify-content: space-around;
+   text-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .list li{
+      color: rgb(244, 249, 246);
+      word-spacing: normal;
+
+      
+  }
+  
+  .list li a {
+      text-decoration: none;
+      color: #ffffff; /* White text color for links */
+      font-size: 16px;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+  
+  .list  li a:hover{
+      /* background-color: #746c6c; */
+      transition-duration: 0.3s;
+      color: black;
+     border-radius: 8px;
+  }
+  .li link{
+      list-style-type: none;
+  }
